@@ -98,6 +98,18 @@
           "lib/net6.0/HotChocolate.Execution.dll": {}
         }
       },
+      "HotChocolate.Extensions.ApolloSubgraph/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "HotChocolate": "12.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/HotChocolate.Extensions.ApolloSubgraph.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/HotChocolate.Extensions.ApolloSubgraph.dll": {}
+        }
+      },
       "HotChocolate.Fetching/12.12.1": {
         "type": "package",
         "dependencies": {
@@ -782,6 +794,20 @@
         "lib/netstandard2.0/HotChocolate.Execution.dll",
         "lib/netstandard2.0/HotChocolate.Execution.xml",
         "strawberryshake-signet.png"
+      ]
+    },
+    "HotChocolate.Extensions.ApolloSubgraph/0.3.0": {
+      "sha512": "LNR5PQjwOG9IuaG1LvvcId4yKRukvivsW1Q6Q5GdjqyaiTySZwDiQrpK1HamlHjiPqU3pdcYH03q1t6m5r2B3w==",
+      "type": "package",
+      "path": "hotchocolate.extensions.apollosubgraph/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "hotchocolate.extensions.apollosubgraph.0.3.0.nupkg.sha512",
+        "hotchocolate.extensions.apollosubgraph.nuspec",
+        "lib/netstandard2.0/HotChocolate.Extensions.ApolloSubgraph.dll"
       ]
     },
     "HotChocolate.Fetching/12.12.1": {
@@ -1860,6 +1886,7 @@
     "net6.0": [
       "HotChocolate.AspNetCore >= 12.12.1",
       "HotChocolate.Data >= 12.12.1",
+      "HotChocolate.Extensions.ApolloSubgraph >= 0.3.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -1908,6 +1935,10 @@
           "HotChocolate.Data": {
             "target": "Package",
             "version": "[12.12.1, )"
+          },
+          "HotChocolate.Extensions.ApolloSubgraph": {
+            "target": "Package",
+            "version": "[0.3.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

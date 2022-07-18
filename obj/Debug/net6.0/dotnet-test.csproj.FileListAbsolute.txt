@@ -51,3 +51,4 @@
 /Users/ing/Desktop/dotnet-test/obj/Debug/net6.0/dotnet-test.pdb
 /Users/ing/Desktop/dotnet-test/obj/Debug/net6.0/dotnet-test.genruntimeconfig.cache
 /Users/ing/Desktop/dotnet-test/obj/Debug/net6.0/ref/dotnet-test.dll
+/Users/ing/Desktop/dotnet-test/bin/Debug/net6.0/HotChocolate.Extensions.ApolloSubgraph.dll
